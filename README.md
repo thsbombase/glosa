@@ -1,2 +1,2 @@
-# glosa
-glósa
+# Glósa - A Note taking app
+
