@@ -15,8 +15,10 @@
 <body class="antialiased">
     @include('layouts.navbar')
     
-    @yield('content')
-    
+    <main>
+        @yield('content')
+    </main>
+    @include('layouts.footer')
     <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
 </body>
 
