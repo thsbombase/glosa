@@ -1,5 +1,5 @@
-<footer class="py-8 bg-gray-800 shadow md:px-6">
-    <hr class="border-gray-700 sm:mx-auto lg:my-8" />
-    <span class="block text-sm text-center text-gray-400">© 2022 Tristan Bombase</a>
+<footer class="py-4 bg-teal-900 shadow md:px-6">
+    <hr class="my-4 border-teal-800 sm:mx-auto lg:my-4" />
+    <span class="block text-sm text-center text-gray-300">© 2022 <a href="https://tristanbombase.vercel.app/" class="hover:underline">Tristan Bombase</a> </span>
     </span>
 </footer>
