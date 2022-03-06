@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" >
 
 <head>
     <meta charset="utf-8">
@@ -13,9 +13,9 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-green-100">
     @include('layouts.navbar')
-    <main> 
+    <main > 
         @yield('content') 
     </main>
     @if (url()->current() === route('home'))

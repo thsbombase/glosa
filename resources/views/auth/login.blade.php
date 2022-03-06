@@ -7,10 +7,10 @@
         <video class="object-cover w-full h-full" src="{{asset('video/bg-login.webm')}}" muted autoplay loop preload></video>
     </div>
     <div hidden role="hidden" class="fixed inset-0 w-6/12 ml-auto bg-white bg-opacity-70 backdrop-blur-xl lg:block"></div>
-    <div class="relative h-full pt-16 ml-auto lg:w-6/12">
-        <div class="px-6 py-12 m-auto sm:p-20 xl:w-10/12">
-            <div class="space-y-4">
-                <img src="{{asset('img/glòsa_logo.svg')}}" class="w-20 ml-40" alt="Glósa logo">
+    <div class="relative h-full ml-auto lg:w-6/12">
+        <div class="px-8 py-12 m-auto sm:p-20 xl:w-10/12">
+            <div class="space-y-8">
+                <img src="{{asset('img/glòsa_logo.svg')}}" class="w-24 md:w-48" alt="Glósa logo">
                 <p class="text-lg font-medium text-gray-600">Welcome to Glósa ! Login</p>
                 @error('email')
                     <span class="text-xs tracking-wide text-red-600">
