@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Glósa | @yield('title')</title>
     
     <!-- Fonts -->
@@ -12,12 +13,14 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 
-<body class="antialiased">
+<body>
     @include('layouts.navbar')
-    <main>
-        @yield('content')
+    <main> 
+        @yield('content') 
     </main>
-    @include('layouts.footer')
+    @if (url()->current() === route('home'))
+        @include('layouts.footer')
+    @endif
     <script src="https://unpkg.com/flowbite@1.3.4/dist/flowbite.js"></script>
 </body>
 
