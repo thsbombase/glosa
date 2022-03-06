@@ -35,7 +35,7 @@
                     <input 
                         type="text" 
                         placeholder="Your Name"
-                        class="w-full px-6 py-3 placeholder-gray-600 transition bg-transparent ring-1 ring-gray-300 rounded-xl disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 "
+                        class="w-full px-6 py-3 placeholder-gray-600 transition bg-transparent ring-1 ring-gray-300 rounded-xl"
                         name="name" 
                         required 
                         autocomplete="email" 
@@ -47,7 +47,7 @@
                     <input 
                         type="email" 
                         placeholder="Your Email"
-                        class="w-full px-6 py-3 placeholder-gray-600 transition bg-transparent ring-1 ring-gray-300 rounded-xl disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 "
+                        class="w-full px-6 py-3 placeholder-gray-600 transition bg-transparent ring-1 ring-gray-300 rounded-xl"
                         name="email" 
                         required 
                         autocomplete="email" 
@@ -59,7 +59,7 @@
                     <input 
                         type="password" 
                         placeholder="Password"
-                        class="w-full px-6 py-3 placeholder-gray-600 transition bg-transparent ring-1 ring-gray-300 rounded-xl disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 "
+                        class="w-full px-6 py-3 placeholder-gray-600 transition bg-transparent ring-1 ring-gray-300 rounded-xl"
                         name="password" 
                         required
                         autocomplete="current-password"
@@ -70,7 +70,7 @@
                     <input 
                         type="password" 
                         placeholder="Confirm Password"
-                        class="w-full px-6 py-3 placeholder-gray-600 transition bg-transparent ring-1 ring-gray-300 rounded-xl disabled:ring-gray-200 disabled:bg-gray-100 disabled:placeholder-gray-400 "
+                        class="w-full px-6 py-3 placeholder-gray-600 transition bg-transparent ring-1 ring-gray-300 rounded-xl disabled:ring-gray-200"
                         name="password_confirmation" 
                         required
                         autocomplete="current-password"
@@ -78,7 +78,7 @@
                 </div>
 
                 <div>
-                    <button type="submit" class="w-full px-6 py-3 transition rounded-xl bg-sky-500 hover:bg-sky-600 focus:bg-sky-600 active:bg-sky-800">
+                    <button type="submit" class="w-full px-6 py-3 transition rounded-xl bg-teal-500 hover:bg-teal-600 focus:bg-teal-600 active:bg-teal-800">
                         <span class="text-lg font-semibold text-white">Register</span>
                     </button>
                 </div>
