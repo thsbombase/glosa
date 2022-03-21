@@ -1,4 +1,5 @@
 # Glósa - An online note taking app
+IN DEVELOPMENT
 Built with **Laravel** and **Tailwind CSS**.
 # Starting Guide
 ## 1. Setup dependencies 
